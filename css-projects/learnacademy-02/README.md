@@ -1,0 +1,17 @@
+# Lear Academy 02 👨‍🎓
+
+A model website for a Learn Academy.
+
+## 📋 Features
+- HTML structure
+- CSS styling
+- Responsive layout
+
+## 💡 Concepts Used
+- Semantic tags
+- Flexbox
+- FLex wrap
+
+## 👤 Author
+Namiez Asfar
+[GitHub](https://github.com/namiezasfar7)
