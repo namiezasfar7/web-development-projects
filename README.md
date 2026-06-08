@@ -7,15 +7,28 @@ web development from beginner to advanced level.
 web-development-projects/
 - html-projects/
     - learnhub/
+- css-projects
+    - developer-portfolio/
+    - learnacademy-01/
+    - learnacademy-02/
+    - mini-portfolio/
 
 ## 🗂️ Projects Overview
 
 ### 🟢 HTML Projects
 - learnhub : A model website for LearnHub
 
+### 🟡 CSS Projects
+- Developer Portfolio : A model portfolio website that is responsive
+- Learn Academy 01 : A model website for Learn Academy
+- Learn Academy 02 : A model website for Learn Academy that is responsive
+- Developer Portfolio : A model portfolio website for a developer with advanced styling options
+
 ## 📈 Skills Demonstrated
 - Basic tags
 - Semantic tags
+- Flexbox
+- Flex wrap
 
 ## 👤 Author
 Namiez Asfar
