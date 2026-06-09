@@ -1,0 +1,13 @@
+article.card {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+span.badge {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
