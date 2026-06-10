@@ -15,6 +15,10 @@ web-development-projects/
     - project-portfolio-01/
     - project-portfolio-02/
     - project-portfolio-03/
+    - css-grids-01/
+    - css-grids-02/
+    - css-grids-03/
+    - developer-portfolio-v2/
 
 ## 🗂️ Projects Overview
 
@@ -22,11 +26,13 @@ web-development-projects/
 - learnhub : A model website for LearnHub
 
 ### 🟡 CSS Projects
-- Developer Portfolio : A model portfolio website that is responsive
+- Mini Portfolio : A model portfolio website that is responsive
 - Learn Academy 01 : A model website for Learn Academy
 - Learn Academy 02 : A model website for Learn Academy that is responsive
 - Developer Portfolio : A model portfolio website for a developer with advanced styling options
 - Project Portfolio 01, 02, 03 : A model portfolio website for projects with advanced styling options
+- CSS Grids 01, 02, 03 : Learning css grids and using them
+- Developer Portfolio v2 : A model portfolio website for a developer with advanced styling options but better
 
 ## 📈 Skills Demonstrated
 - Basic tags
@@ -34,6 +40,7 @@ web-development-projects/
 - Flexbox
 - Flex wrap
 - Positions
+- Grids
 
 ## 👤 Author
 Namiez Asfar
