@@ -1,0 +1,106 @@
+body {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: brown;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: burlywood;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 60vh;
+}
+
+button {
+    background-color: brown;
+    color: bisque;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(216, 58, 58);
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#featured {
+    grid-column: span 3;
+}
+
+.cards {
+        height: 100px;
+}
+
+#featured,
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    background-color: bisque;
+    color: brown;
+    padding: 10px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+}
+
+span.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
