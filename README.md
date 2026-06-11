@@ -19,6 +19,7 @@ web-development-projects/
     - css-grids-02/
     - css-grids-03/
     - developer-portfolio-v2/
+    - responsive-design-01/
 
 ## 🗂️ Projects Overview
 
@@ -33,6 +34,7 @@ web-development-projects/
 - Project Portfolio 01, 02, 03 : A model portfolio website for projects with advanced styling options
 - CSS Grids 01, 02, 03 : Learning css grids and using them
 - Developer Portfolio v2 : A model portfolio website for a developer with advanced styling options but better
+- Responsive Design 01 : A model website for a developer portfolio with responsiveness
 
 ## 📈 Skills Demonstrated
 - Basic tags
@@ -41,6 +43,7 @@ web-development-projects/
 - Flex wrap
 - Positions
 - Grids
+- Media queries
 
 ## 👤 Author
 Namiez Asfar
