@@ -1,0 +1,21 @@
+# Developer Portfolio 03 👨‍🎓
+
+A model website for a developer portfolio.
+
+## 📋 Features
+- HTML structure
+- CSS styling
+- Buttons
+- Responsive
+
+## 💡 Concepts Used
+- Semantic tags
+- Flexbox
+- Pseudo classes
+- Grids
+- Positioning
+- Media queries
+
+## 👤 Author
+Namiez Asfar
+[GitHub](https://github.com/namiezasfar7)
