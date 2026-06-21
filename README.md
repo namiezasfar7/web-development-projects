@@ -20,6 +20,7 @@ web-development-projects/
     - css-grids-03/
     - developer-portfolio-v2/
     - responsive-design-01/
+    - developer-portfolio-03/
 
 ## 🗂️ Projects Overview
 
@@ -35,6 +36,7 @@ web-development-projects/
 - CSS Grids 01, 02, 03 : Learning css grids and using them
 - Developer Portfolio v2 : A model portfolio website for a developer with advanced styling options but better
 - Responsive Design 01 : A model website for a developer portfolio with responsiveness
+- Developer Portfolio 03 : A model portfolio website for a developer with advanced styling options and responsiveness
 
 ## 📈 Skills Demonstrated
 - Basic tags
