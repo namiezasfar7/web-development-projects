@@ -21,6 +21,7 @@ web-development-projects/
     - developer-portfolio-v2/
     - responsive-design-01/
     - developer-portfolio-03/
+    - developer-portfolio-04/
 
 ## 🗂️ Projects Overview
 
@@ -37,6 +38,7 @@ web-development-projects/
 - Developer Portfolio v2 : A model portfolio website for a developer with advanced styling options but better
 - Responsive Design 01 : A model website for a developer portfolio with responsiveness
 - Developer Portfolio 03 : A model portfolio website for a developer with advanced styling options and responsiveness
+- Developer Portfolio 04 : A model portfolio website for a developer with advanced styling options, responsiveness and forms
 
 ## 📈 Skills Demonstrated
 - Basic tags
@@ -46,6 +48,7 @@ web-development-projects/
 - Positions
 - Grids
 - Media queries
+- Forms
 
 ## 👤 Author
 Namiez Asfar
