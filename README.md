@@ -22,6 +22,7 @@ web-development-projects/
     - responsive-design-01/
     - developer-portfolio-03/
     - developer-portfolio-04/
+    - pricing-page-01/
 
 ## 🗂️ Projects Overview
 
@@ -39,6 +40,7 @@ web-development-projects/
 - Responsive Design 01 : A model website for a developer portfolio with responsiveness
 - Developer Portfolio 03 : A model portfolio website for a developer with advanced styling options and responsiveness
 - Developer Portfolio 04 : A model portfolio website for a developer with advanced styling options, responsiveness and forms
+- Pricing Page 01 : A model website for a pricing page
 
 ## 📈 Skills Demonstrated
 - Basic tags
