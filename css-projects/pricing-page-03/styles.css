@@ -193,12 +193,10 @@ button.plan-button:hover {
 
 button.plan-button::after{
     content:"→";
-
 }
 
 button.plan-button:hover::after{
     margin-left:8px;
-
 }
 
 form {
