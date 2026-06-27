@@ -23,6 +23,8 @@ web-development-projects/
     - developer-portfolio-03/
     - developer-portfolio-04/
     - pricing-page-01/
+    - pricing-page-02/
+    - pricing-page-03/
 
 ## 🗂️ Projects Overview
 
@@ -41,6 +43,8 @@ web-development-projects/
 - Developer Portfolio 03 : A model portfolio website for a developer with advanced styling options and responsiveness
 - Developer Portfolio 04 : A model portfolio website for a developer with advanced styling options, responsiveness and forms
 - Pricing Page 01 : A model website for a pricing page
+- Pricing Page 02 : A model website for a pricing page (Using variables)
+- Pricing Page 03 : A model website for a pricing page (Using pseudo classes)
 
 ## 📈 Skills Demonstrated
 - Basic tags
@@ -51,6 +55,8 @@ web-development-projects/
 - Grids
 - Media queries
 - Forms
+- CSS variables
+- Pseudo classes
 
 ## 👤 Author
 Namiez Asfar
