@@ -1,0 +1,259 @@
+:root {
+    --primary-color: royalblue;
+    --secondary-color: rgb(103, 133, 224);
+    --background-color: aliceblue;
+    --text-color: royalblue;
+    --white:#fff;
+
+    --small-radius:10px;
+    --large-radius:20px;
+    --padding:20px;
+
+    --shadow-light:0 2px 8px rgba(0,0,0,.1);
+    --shadow-heavy:0 6px 12px rgba(0,0,0,.2);
+
+    --transition-speed: 0.3s;
+}
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:var(--padding);
+
+    background-color: var(--background-color);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background-color: var(--primary-color);
+    border-radius: var(--large-radius);
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a {
+    display: inline-block;
+
+    position: relative;
+
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: var(--transition-speed);
+}
+
+nav a:hover {
+    transform: translateY(-5px);
+
+    color: var(--white);
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+
+    background: var(--white);
+    transition: var(--transition-speed);
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+    height: 60vh;
+}
+
+#hero h1 {
+    position: relative;
+}
+
+#hero h1::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+
+    background: var(--secondary-color);
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+span.badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    background-color: red;
+    color: var(--white);
+    border-radius: var(--small-radius);
+    padding: 5px;
+    box-shadow: var(--shadow-light);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    background-color: var(--white);
+    color: var(--text-color);
+    padding:var(--padding);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--small-radius);
+    box-shadow: var(--shadow-light);
+    min-height: 300px;
+
+    text-align: center;
+
+    transition: var(--transition-speed);
+}
+
+.card h3 {
+    padding-top: 25px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: var(--shadow-heavy);
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 6px;
+
+    border-radius:10px 10px 0 0;
+
+    background: var(--secondary-color);
+}
+
+button {
+    border: none;
+    border-radius: var(--small-radius);
+    padding: 10px;
+
+    transition: var(--transition-speed);
+}
+
+button:hover {
+    box-shadow: var(--shadow-heavy);
+    cursor: pointer;
+
+    transform: translateY(-3px);
+}
+
+button.plan-button {
+    margin-top: auto;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+button.plan-button:hover {
+    background-color: var(--secondary-color);
+}
+
+button.plan-button::after{
+    content:"→";
+
+}
+
+button.plan-button:hover::after{
+    margin-left:8px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+
+    background-color: var(--white);
+    color: var(--text-color);
+    padding:var(--padding);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--small-radius);
+    box-shadow: var(--shadow-light);
+
+    text-align: center;
+}
+
+form label {
+    align-self: flex-start;
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+button.normal-button {
+    background-color: red;
+    color: var(--white);
+}
+
+button.normal-button:hover {
+    background-color: rgb(223, 120, 120);
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .pricing-container {
+        grid-template-columns: 1fr;
+    }
+}
