@@ -114,8 +114,8 @@ nav a:hover::after {
 
 span.badge {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 10px;
+    right: 10px;
 
     background-color: red;
     color: var(--white);
