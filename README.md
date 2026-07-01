@@ -25,6 +25,7 @@ web-development-projects/
     - pricing-page-01/
     - pricing-page-02/
     - pricing-page-03/
+    - css-pseudo-elements-01/
 
 ## 🗂️ Projects Overview
 
@@ -44,7 +45,8 @@ web-development-projects/
 - Developer Portfolio 04 : A model portfolio website for a developer with advanced styling options, responsiveness and forms
 - Pricing Page 01 : A model website for a pricing page
 - Pricing Page 02 : A model website for a pricing page (Using variables)
-- Pricing Page 03 : A model website for a pricing page (Using pseudo classes)
+- Pricing Page 03 : A model website for a pricing page (Using pseudo elements)
+- CSS Pseudo Elements 01 : Learning CSS pseudo elements
 
 ## 📈 Skills Demonstrated
 - Basic tags
@@ -57,6 +59,7 @@ web-development-projects/
 - Forms
 - CSS variables
 - Pseudo classes
+- Pseudo elements
 
 ## 👤 Author
 Namiez Asfar
