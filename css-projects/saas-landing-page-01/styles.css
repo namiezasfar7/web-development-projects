@@ -17,6 +17,10 @@
     --transition-speed: 0.3s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 1100px;
     margin: 0 auto;
@@ -144,10 +148,13 @@ button.main-button:hover {
 
 button.main-button::after{
     content:" >";
+    display: inline-block;
+    margin-left: 5px;
+    transition: var(--transition-speed);
 }
 
 button.main-button:hover::after{
-    margin-left:8px;
+    transform: translateX(5px);
 }
 
 button.form-button {
@@ -216,8 +223,8 @@ button.form-button:hover {
     content: "❛";
     position: absolute;
 
-    left: 10;
-    top: 10;
+    left: 10px;
+    top: 10px;
     height: 6px;
 
     background: var(--secondary-color);
@@ -325,5 +332,34 @@ textarea:focus {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .feature-container,
+    .pricing-container,
+    .testomonials-container {
+        grid-template-columns: 1fr;
+    }
+
+    #div1,
+    #div2,
+    #div4,
+    #div5,
+    #div6,
+    #div7,
+    #div8 {
+        grid-column: auto;
+        grid-row: auto;
+    }
 }
