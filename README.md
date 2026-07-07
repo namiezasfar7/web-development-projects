@@ -26,6 +26,7 @@ web-development-projects/
     - pricing-page-02/
     - pricing-page-03/
     - css-pseudo-elements-01/
+    - saas-landing-page-01/
 
 ## 🗂️ Projects Overview
 
@@ -47,6 +48,7 @@ web-development-projects/
 - Pricing Page 02 : A model website for a pricing page (Using variables)
 - Pricing Page 03 : A model website for a pricing page (Using pseudo elements)
 - CSS Pseudo Elements 01 : Learning CSS pseudo elements
+- SAAS Landing Page 01 : A SAAS landing page for a model brand DevFlow
 
 ## 📈 Skills Demonstrated
 - Basic tags
