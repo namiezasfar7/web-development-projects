@@ -1,0 +1,392 @@
+:root {
+    --primary-color: #023047;
+    --secondary-color: #219ebc;
+    --primary-accent-color: #ffb703;
+    --secondary-accent-color: #ffb703;
+    --background-color: #8ecae6;
+    --text-color: #023047;
+    --white: #fff;
+
+    --small-radius: 10px;
+    --large-radius: 20px;
+    --small-padding: 20px;
+    --large-padding: 30px;
+    --gap: 10px;
+
+    --shadow-light: 0 2px 8px rgba(0,0,0,.1);
+    --shadow-heavy: 0 6px 12px rgba(0,0,0,.2);
+
+    --transition-speed: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:var(--large-padding);
+
+    background-color: var(--background-color);
+
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    background-color: var(--secondary-color);
+
+    box-shadow: var(--shadow-light);
+
+    border-radius: var(--small-radius);
+    padding: var(--large-padding);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: var(--gap);
+}
+
+nav a {
+    display: inline-block;
+
+    position: relative;
+
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+
+    transition: var(--transition-speed);
+}
+
+nav a:hover {
+    color: var(--white);
+
+    transform: translateY(-5px);
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+
+    background: var(--secondary-accent-color);
+    transition: var(--transition-speed);
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: var(--gap);
+
+    text-align: center;
+
+    height: 60vh;
+}
+
+.highlights {
+    font-weight: bold;
+    color: var(--primary-accent-color);
+}
+
+#hero h1 {
+    position: relative;
+
+    text-shadow: var(--shadow-heavy);
+}
+
+#hero h1::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+
+    background: var(--secondary-color);
+}
+
+#hero p {
+    max-width:650px;
+}
+
+.button-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: var(--gap);
+}
+
+button {
+    border: none;
+    border-radius: var(--small-radius);
+    padding: 10px;
+
+    transition: var(--transition-speed);
+}
+
+button:hover {
+    box-shadow: var(--shadow-heavy);
+    cursor: pointer;
+
+    transform: translateY(-3px);
+}
+
+button.primary-button {
+    margin-top: auto;
+
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+button.primary-button:hover {
+    background-color: var(--secondary-color);
+}
+
+button.primary-button::after{
+    content:" >";
+    display: inline-block;
+    margin-left: 5px;
+
+    transition: var(--transition-speed);
+}
+
+button.primary-button:hover::after{
+    transform: translateX(5px);
+}
+
+button.secondary-button {
+    margin-top: auto;
+
+    background-color: var(--primary-accent-color);
+    color: var(--primary-color);
+}
+
+button.secondary-button:hover {
+    background-color: var(--secondary-accent-color);
+}
+
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: var(--gap);
+}
+
+.course-card,
+.statistics-card,
+.testomonial-card {
+    display: flex;
+    flex-direction: column;
+
+    background-color:  #bfd9e5;
+    color: var(--text-color);
+
+    padding:var(--large-padding);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--small-radius);
+
+    box-shadow: var(--shadow-light);
+
+    text-align: center;
+
+    transition: var(--transition-speed);
+}
+
+.course-card h3,
+.statistics-card h3 {
+    padding-top: 25px;
+}
+
+.course-card:hover,
+.statistics-card:hover,
+.testomonial-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: var(--shadow-heavy);
+}
+
+.testomonial-card{
+    position: relative;
+
+    width: 33%;
+}
+
+.testomonial-card::before {
+    content: "❛";
+    position: absolute;
+
+    left: 10px;
+    top: 10px;
+    height: 6px;
+
+    background: var(--secondary-color);
+}
+
+span.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: red;
+    color: var(--white);
+
+    border-radius: var(--small-radius);
+    padding: 5px;
+
+    box-shadow: var(--shadow-light);
+}
+
+
+.statistics-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: var(--gap);
+}
+
+.testomonials-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: var(--gap);
+}
+
+#card01 {
+    grid-column: span 3 / span 3;
+
+    position: relative;
+}
+
+#card02 {
+    grid-row: span 2 / span 2;
+    grid-row-start: 2;
+}
+
+#card03 {
+    grid-row-start: 2;
+}
+
+#card04 {
+    grid-row-start: 2;
+}
+
+#card05 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+#card06 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    padding:var(--large-padding);
+
+    background-color:  #bfd9e5;
+    color: var(--text-color);
+
+    border: 1px solid var(--primary-color);
+    border-radius: var(--small-radius);
+
+    box-shadow: var(--shadow-light);
+
+    text-align: center;
+}
+
+form label {
+    align-self: flex-start;
+    display: block;
+    margin-top: 10px;
+
+    font-weight: bold;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--primary-color);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .course-container,
+    .statistics-container {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-card{
+        width:100%;
+    }
+
+    #card01,
+    #card02,
+    #card03,
+    #card04,
+    #card05,
+    #card06 {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    footer{
+        flex-direction:column;
+        gap:15px;
+    }
+}
